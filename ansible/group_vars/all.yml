@@ -1,0 +1,6 @@
+ebispot_ols_version: master # OLS version that should be installed
+ebispot_ols_installation_dir: '{{ ansible_env.HOME }}' # installation directory on the target system
+ebispot_ols_base_dir: '{{ ebispot_ols_installation_dir }}/OLS' # OLD directory on the target system
+ebispot_ols_custom_config_files:  # list of all (local) config files that should be copied into the OLS installation
+  
+docker_user: '{{ ansible_user }}'
