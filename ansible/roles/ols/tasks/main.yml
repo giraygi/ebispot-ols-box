@@ -9,7 +9,7 @@
 
 - name: checkout OLS locally
   git:
-    repo: 'https://github.com/EBISPOT/OLS.git'
+    repo: 'https://github.com/giraygi/OLS.git'
     dest: '{{ ebispot_ols_base_dir }}'
     force: yes
     version: '{{ ebispot_ols_version }}'
